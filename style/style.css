@@ -1,0 +1,42 @@
+.card {
+    color: white;
+    background-color: #9D0208;
+    padding: 20px;
+    margin: 20px;
+    width: 78px;
+    height: 120px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+
+.container {
+    background-color: #F48C06;
+    max-width: 468px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.card--text {
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.card--middle {
+    color: white;
+    background-color: #9D0208;
+    padding: 20px;
+    margin: 20px;
+    width: 78px;
+    height: 64px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    align-self: center;
+}
