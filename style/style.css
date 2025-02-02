@@ -1,42 +1,186 @@
-.card {
-    color: white;
-    background-color: #9D0208;
-    padding: 20px;
-    margin: 20px;
-    width: 78px;
-    height: 120px;
+.container {
+    min-height: 100vh;
     display: flex;
-    gap: 10px;
-    justify-content: center;
     flex-wrap: wrap;
-    border-radius: 5px;
+    justify-content: center;
+    background-color: #260635;
 }
 
-.container {
+
+.box-one {
+    width: 468px;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-end;
     background-color: #F48C06;
-    max-width: 468px;
-    display: flex;
     border-radius: 10px;
 }
 
-.card--text {
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    font-weight: normal;
+#box-one-1,
+#box-one-2,
+#box-one-3 {
+    width: 78px;
+    height: 78px;
+    background-color: #9D0208;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
-.card--middle {
-    color: white;
+.box-two {
+    width: 468px;
+    height: 160px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #F48C06;
+    border-radius: 10px;
+}
+
+#box-two-1,
+#box-two-2,
+#box-two-3 {
+    width: 78px;
+    height: 120px;
     background-color: #9D0208;
-    padding: 20px;
-    margin: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.box-three {
+    width: 468px;
+    height: 160px;
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #F48C06;
+    border-radius: 10px;
+}
+
+#box-three-1,
+#box-three-2,
+#box-three-3 {
+    width: 78px;
+    height: 78px;
+    background-color: #9D0208;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.box-four {
+    width: 468px;
+    height: 160px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #F48C06;
+    border-radius: 10px;
+}
+
+#box-four-1,
+#box-four-2 {
+    width: 78px;
+    height: 78px;
+    background-color: #9D0208;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#box-four-3 {
+    width: 78px;
+    height: 78px;
+    background-color: #9D0208;
+    border-radius: 5px;
+    margin-left: 20px;
+    align-self: flex-end; 
+    margin-bottom: 20px; 
+}
+
+.box-five {
+    width: 468px;
+    height: 160px;
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F48C06;
+    border-radius: 10px;
+}
+
+#box-five-1 {
+    width: 78px;
+    height: 120px;
+    background-color: #9D0208;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#box-five-2 {
     width: 78px;
     height: 64px;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    flex-wrap: wrap;
+    background-color: #9D0208;
     border-radius: 5px;
-    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+#box-five-3 {
+    width: 78px;
+    height: 120px;
+    background-color: #9D0208;
+    border-radius: 5px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.box-five p {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding-bottom: 20px;  
+}
+
+.box-six {
+    width: 468px;
+    height: 160px;
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F48C06;
+    border-radius: 10px;
+}
+
+#box-six-1,
+#box-six-3 {
+    width: 78px;
+    height: 78px;
+    background-color: #9D0208;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+#box-six-2 {
+    width: 158px;
+    height: 78px;
+    background-color: #9D0208;
+    border-radius: 5px;
+    margin-left: 20px;
 }
